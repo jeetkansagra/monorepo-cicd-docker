@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.ws
           push: true
-          tags: jeetkansagra07/monorepo-cicd-docker-ws:${{ github.sha }}
+          tags: jeetkansagra07/monorepo-cicd-ws:${{ github.sha }}

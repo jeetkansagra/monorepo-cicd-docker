@@ -23,4 +23,4 @@ jobs:
           build-args:
             -DATABASE_URL=${{ secrets.DATABASE_URL }}
           push: true
-          tags: jeetkansagra07/monorepo-cicd-docker:${{ github.sha }}
+          tags: jeetkansagra07/monorepo-cicd-frontend:${{ github.sha }}
